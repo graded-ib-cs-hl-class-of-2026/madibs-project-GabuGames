@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class App {
 
-    public static String GREEN = "\033[0;32m"; // GREEN
-    public static String BLUE = "\033[0;34m"; // BLUE
-    public static String RESET = "\033[0m"; // Text Reset
-    public static String RED = "\033[0;31m"; // RED
-    public static String PURPLE = "\033[0;35m"; // PURPLE
+    public String GREEN = "\033[0;32m"; // GREEN
+    public String BLUE = "\033[0;34m"; // BLUE
+    public String RESET = "\033[0m"; // Text Reset
+    public String RED = "\033[0;31m"; // RED
+    public String PURPLE = "\033[0;35m"; // PURPLE
 
     /*
      * The colors are ANSI escape codes that are used to change the color of the
