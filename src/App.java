@@ -191,14 +191,14 @@ public class App {
 
             System.out.println(BLUE + "├────────────────────────────────────────" + RESET);
             System.out.println(BLUE + "│ " + RESET + "In a " + weather + " day, " + person + " used a " + object
-                    + "to flee from prison, with the help of " + person2 + ".\n" +
+                    + " to flee from prison, with the help of " + person2 + ".\n" +
                     BLUE + "│ " + RESET + "He ran for hours until he reached a " + place
                     + " where he rested for the night.\n" +
                     BLUE + "│ " + RESET + "The next day, there was " + number + " " + emotion
                     + " cops waiting outside to arrest " + person + ". \n" +
                     BLUE + "│ " + RESET + person + " grabbed a " + object2 + " and tried to " + verb
                     + " away from the cops.\n" +
-                    BLUE + "│ " + RESET + "After a long fight, the cops " + verb2 + " and arrested" + person
+                    BLUE + "│ " + RESET + "After a long fight, the cops " + verb2 + " and arrested " + person
                     + ", putting him back into prison.\n" +
                     BLUE + "│ " + RESET + "The end.\n" +
                     BLUE + "│ " + RESET); // story
