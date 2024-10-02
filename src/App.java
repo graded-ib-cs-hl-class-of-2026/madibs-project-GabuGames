@@ -27,10 +27,6 @@ public class App {
     // Borders and symbols https://www.w3.org/TR/xml-entity-names/025.html, and
     // https://www.alt-codes.net/arrow_alt_codes.php
 
-    public void color(String color, String text) {
-        System.out.println(color + text + RESET);
-    }
-
     /**
      * This method is the primary driver method for your program.
      * It should primarily call other methods to do its work.
