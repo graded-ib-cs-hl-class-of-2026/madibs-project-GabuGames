@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class App {
 
+    // Declaring global colors tp be used in the program
     public String GREEN = "\033[0;32m"; // GREEN
     public String BLUE = "\033[0;34m"; // BLUE
     public String RESET = "\033[0m"; // Text Reset
@@ -46,6 +47,9 @@ public class App {
      * You can create any other methods you need as well!
      */
 
+    /**
+     * This method does the asks the questions and does the madlib
+     */
     public void doMadlib() {
         Scanner input = new Scanner(System.in);
         System.out.println(BLUE + "│ " + RED + "Do you want to play version 1, 2, or 3?" + RESET);
@@ -212,6 +216,9 @@ public class App {
 
     }
 
+    /**
+     * This method gets the user's name
+     */
     public String getUserName() {
         Scanner input = new Scanner(System.in);
         System.out.println(BLUE + "│ " + GREEN + "What is your name?" + RESET);
@@ -220,11 +227,17 @@ public class App {
         return userName;
     }
 
+    /**
+     * This method prints a greeting to the user with his name
+     */
     public void printGreeting(String userName) {
         System.out.println(BLUE + "├────────────────────────────────────────" + RESET);
         System.out.println(BLUE + "│ " + RESET + "Hello, " + GREEN + userName + RESET + "!");
     }
 
+    /**
+     * This method prints a goodbye message
+     */
     public void printGoodbye() {
         System.out.println(BLUE + "│ " + PURPLE
                 + "╭────────────────────────────────────────────────────────────────────╮\n" + //
@@ -241,6 +254,9 @@ public class App {
                 + RESET);
     }
 
+    /**
+     * This method prints the instructions for the user
+     */
     public void printInstructions() {
         System.out.println(BLUE + "╭───────────────────────────────────────────────────────────────────╮\n" + //
                 "│  _______  _______  ______     _       _________ ______   _______  │\n" + //
